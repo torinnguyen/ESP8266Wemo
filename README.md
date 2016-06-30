@@ -14,3 +14,8 @@ Getting Started
 4. Ask "Alexa, discover devices"
 
 5. After the discovery is successful, ask "Alexa, turn on/off your <your-device-name>"
+
+
+Demo video
+
+[![Demo video](http://img.youtube.com/vi/cTZIDS0zHwI/0.jpg)](https://www.youtube.com/watch?v=cTZIDS0zHwI "Demo video")
