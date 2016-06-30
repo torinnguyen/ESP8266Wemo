@@ -1,9 +1,8 @@
 # ESP8266Wemo
-Make ESP8266 works directly with Amazone Echo by emulating a WeMo switch using nothing else but standard ESP8266 libraries
+Make ESP8266 works directly with Amazone Echo by emulating a WeMo switch using nothing but standard ESP8266 libraries
 
 
-Getting Started
-
+### Getting Started
 
 1. Fill in your SSID & Password at the begining of the sketch
 
@@ -16,6 +15,11 @@ Getting Started
 5. After the discovery is successful, ask "Alexa, turn on/off your <your-device-name>"
 
 
-Demo video
+### Demo
 
 [![Demo video](http://img.youtube.com/vi/cTZIDS0zHwI/0.jpg)](https://www.youtube.com/watch?v=cTZIDS0zHwI "Demo video")
+
+
+### Reference
+
+http://www.makermusings.com/2015/07/18/virtual-wemo-code-for-amazon-echo/
