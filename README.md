@@ -15,6 +15,17 @@ Make ESP8266 works directly with Amazone Echo by emulating a WeMo switch using n
 5. After the discovery is successful, ask "Alexa, turn on/off your <your-device-name>"
 
 
+### [Advanced] Control multiple pins/devices
+
+Here's the outline of the steps:
+
+1. Modify responseToSearchUdp function, use a for-loop to give 1 response for each GPIO pin you want to control. Each pin must be assign a unique serialNumber, uuid & port. (IP Address is the same for all, it is always the IP Address of your ESP8266)
+
+2. For each of the port/pin you have setup above, create a ESP8266WebServer for it.
+
+3. Modify handleUpnpControl function to handle on/off logic for each different port/webserver.
+
+
 ### Demo
 
 [![Demo video](http://img.youtube.com/vi/cTZIDS0zHwI/0.jpg)](https://www.youtube.com/watch?v=cTZIDS0zHwI "Demo video")
